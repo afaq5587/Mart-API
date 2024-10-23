@@ -1,0 +1,261 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMkWxZml/Oegxr/1D1soT43",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/afaq5587/Mart-API/blob/main/solved%20projects%20of%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##No1\n"
+      ],
+      "metadata": {
+        "id": "pcoA8ptr_OcM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "CdMmYf7g_AMm"
+      },
+      "outputs": [],
+      "source": [
+        "def main():\n",
+        "    print(\"This program adds two numbers.\")\n",
+        "    num1 : str = input(\"Enter first number: \")\n",
+        "    num1 : int = int(num1)\n",
+        "    num2  : str = input(\"Enter second number: \")\n",
+        "    num2 : int = int(num2)\n",
+        "    total : int = num1 + num2\n",
+        "    print(f\"The total is   {total} . \")\n",
+        "\n",
+        "\n",
+        "# This provided line is required at the end of\n",
+        "# Python file to call the main() function.\n",
+        "# if __name__ == '__main__':\n",
+        "#     main()\n",
+        "print(main())"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##No2"
+      ],
+      "metadata": {
+        "id": "fcm6H0dm_XOE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def main1():\n",
+        "  print(\"This program ask your favorite animal\")\n",
+        "  ask1 : str = input(\"What is your favorite animal:\")\n",
+        "  print(f\"your favorite animal is also {ask1}!\")\n",
+        "\n",
+        "main1()"
+      ],
+      "metadata": {
+        "id": "p3apM6up_ZY3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##NO3"
+      ],
+      "metadata": {
+        "id": "XDL5gLvS_cnd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def main2():\n",
+        "  print(\"This program will turn Fahrenheit to Celsius \")\n",
+        "  degrees_fahrenheit : float = float(input(\"Enter the temperature in Fahrenheit:\"))\n",
+        "  degrees_celsius : float = float((degrees_fahrenheit - 32) * 5.0/9.0)\n",
+        "  print(f\"temperature: {degrees_fahrenheit} F = {degrees_celsius} C\")\n",
+        "\n",
+        "main2()\n"
+      ],
+      "metadata": {
+        "id": "yGpiDajd_eOe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##NO 4"
+      ],
+      "metadata": {
+        "id": "YxvN0aBK_hjG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def main3():\n",
+        "  print(\"This is program which solve the age-related riddle\")\n",
+        "  Anton : int = 21\n",
+        "\n",
+        "  Beth : int = 6 + Anton\n",
+        "\n",
+        "  Chen : int = 20 + Beth\n",
+        "\n",
+        "  Drew : int = Chen + Anton\n",
+        "\n",
+        "  Ethan : int = Chen\n",
+        "\n",
+        "  print(f\"Anton is {Anton} years old\")\n",
+        "  print(f\"Beth is {Beth} years old\")\n",
+        "  print(f\"Chen is {Chen} years old\")\n",
+        "  print(f\"Drew is {Drew} years old\")\n",
+        "  print(f\"Ethan is {Ethan} years old\")\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    main3()\n"
+      ],
+      "metadata": {
+        "id": "NlSIEQPJ_kVK",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a65be563-3303-434d-f0e2-1fe0c3d2a1d0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is program which solve the age-related riddle\n",
+            "Anton is 21 years old\n",
+            "Beth is 27 years old\n",
+            "Chen is 47 years old\n",
+            "Drew is 68 years old\n",
+            "Ethan is 47 years old\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## NO 5.\n"
+      ],
+      "metadata": {
+        "id": "c_EooBuzzT9B"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# perimeter of triangle\n",
+        "\n",
+        "def main4():\n",
+        "\n",
+        "  side1 : float = float(input(\"Enter the length of side 1:\"))\n",
+        "  side2 : float = float(input(\"Enter the length of side 2:\"))\n",
+        "  side3 : float = float(input(\"Enter the length of side 3:\"))\n",
+        "\n",
+        "  perimeter : float = side1 + side2 + side3\n",
+        "\n",
+        "  print(f\"The perimeter of the triangle is {perimeter}\")\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        " main4()\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kENv13z-voD3",
+        "outputId": "110ae87a-e159-4029-91e4-481a01948dd8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the length of side 1:5\n",
+            "Enter the length of side 2:4\n",
+            "Enter the length of side 3:2\n",
+            "The perimeter of the triangle is 11.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##NO 06"
+      ],
+      "metadata": {
+        "id": "ECbrZz01xCD5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# square of number\n",
+        "\n",
+        "def main5():\n",
+        "   real_number :int = int(input(\"Enter a number:\"))\n",
+        "   square : int = real_number ** 2\n",
+        "   print(f\"The square of {real_number} is {square}\")\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    main5()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MDEUvHy7xHat",
+        "outputId": "cff6f060-5eb2-41a1-fc6a-1f77855ab072"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:50\n",
+            "The square of 50 is 2500\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
